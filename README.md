@@ -1,9 +1,11 @@
-# nbev3devsim
-`nbev3devsim` packages the [*Ev3DevSim*](https://github.com/QuirkyCort/ev3dev-sim) simulator as an `ipywidget` for use in Jupyter notebooks.
+# nbev3devsim-lite
+`nbev3devsim` packages the [*Ev3DevSim*](https://github.com/QuirkyCort/ev3dev-sim) simulator as an `ipywidget` for use in Jupyter notebooks. The `nbev3devsim` package is a Frankestein package with the simulator and some additional neural netwrok packages that add considerable weight.
+
+This repo — `nbev3devsim-lite` — is JUST the simulator. There is a huge risk of forking here, so a plan may be to create these separate packages and then in the original `nbev3devsim` package, that that a dumy package that just loads the separate packages in?
 
 Click the Binder button to launch a demo:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://gke.mybinder.org/v2/gh/innovationOUtside/nbev3devsim/master?filepath=nbev3devsim_setups.md)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://gke.mybinder.org/v2/gh/innovationOUtside/nbev3devsim-lite/master?filepath=nbev3devsim_setups.md)
 
 ![](.images/ev3devsim_demo_screenshot.png)
 
